@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_CornerFlag
+  m_Shader: {fileID: -6465566751694194690, guid: 30818de78eeca5246b147a17b037612b,
+    type: 3}
+  m_ShaderKeywords: REQUIRED_DEPTH_TEXTURE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_4528A5EA:
+        m_Texture: {fileID: 10904, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: eae496078d11426448124eaf8b285e6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_17AC5E3F: 1
+    - Vector1_5DAFD7ED: 2
+    - Vector1_6EB15243: 1
+    - Vector1_795924B0: 1.25
+    - Vector1_9492B704: 0
+    - Vector1_9DA9B2B8: 0.402
+    - Vector1_DEF5C571: 1
+    - Vector1_E1862BB4: -0.2
+    - Vector1_E7242943: 1
+    m_Colors:
+    - Color_52CA631: {r: 0.26637587, g: 0.7245805, b: 0.7735849, a: 0}
+    - Color_579EBB58: {r: 0, g: 0, b: 0, a: 0}
+    - Color_73ECD573: {r: 0.9811321, g: 0.21751513, b: 0.21751513, a: 0}
+    - Color_B21ED090: {r: 1, g: 0, b: 0, a: 0}
